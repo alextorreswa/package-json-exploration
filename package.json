@@ -1,0 +1,42 @@
+{
+  "name": "package-json-exploration",
+  "version": "1.0.0",
+  "description": "A small Node.js + Express project to explore package.json fields, dependencies, scripts, engines, and lockfiles.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watchAll"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "package-json",
+    "express",
+    "jest",
+    "supertest"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alextorreswa/package-json-exploration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alextorreswa/package-json-exploration/issues"
+  },
+  "homepage": "https://github.com/alextorreswa/package-json-exploration#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
